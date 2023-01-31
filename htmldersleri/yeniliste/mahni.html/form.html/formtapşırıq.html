@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Qeyydiyatdan keç</h1>
+    
+    <form action="qeyydiyat.php">
+
+<div>  <label for="gmail"></label>
+Mail: <input type="email"  id="gmail" placeholder="nümune1@gmail.com"> 
+<label for="kod"></label>
+ Kod: <input type="password" placeholder="ən az 8 rəqəm" id="kod">
+</div>  
+<div>
+    <p></p><label for="Ad"></label>
+    Ad: <input placeholder="Nurxan" type="text"  id="Ad">  
+<label for="soyad"></label>
+Soyad: <input placeholder="Kazımov" type="text"  id="Soyad">
+    </div>
+    <div><p></p>
+<label for="Kişi"></label>
+Cinsiyyət:
+<input type="radio" name="gender" id="Kişi">  Kişi
+<label for="Qadın"></label>
+
+<input type="radio" name="gender" id="Qadın">Qadın <p></p>
+
+    </div>
+
+<table >
+ 
+<tr>
+<td>Hobbilərin:</td>
+<td style="width: 0cm;"></td>
+<td>
+   <label for="hibbler"></label>
+    <input type="checkbox"  id="hobbiler"> Kitab oxumaq
+    <input type="checkbox"  id="hobbiler"> Qaçmaq
+    <input type="checkbox"  id="hobbiler"> Qaçmaq
+    <input type="checkbox"  id="hobbiler"> Video oyunlar
+    <input type="checkbox"  id="hobbiler"> Üzmək
+</td>
+
+
+</tr>
+   <tr>
+<td>Yaşadığın şəhər:</td>
+<td style="width: 10%;"></td>
+<td>
+
+    <select  id="seher">
+
+        <option value="Bakı">Seçin</option>
+        <option value="Bakı">Bakı</option>
+        <option value="Bakı">Gəncə</option>
+        <option value="Bakı">Şəmkir</option>
+    </select>
+</td>
+    </tr>
+<P></P>
+<tr>
+<td>İstifadəçi adın:</td>
+<td></td>
+<td>
+    <label for="login"></label>
+    <input type="text"  id="login" placeholder="Nurkhan">
+</td>
+
+</tr>
+<tr>
+<td>Doğum günün:</td>
+<td></td>
+<td>
+  <label for="adgünü"></label>
+<input type="date" id="adgünü"  min="1990-01-01" max="2023-01-31">
+
+</td>
+</tr>
+
+
+
+</table>
+ 
+
+<textarea name="" id="" cols="30" rows="10" placeholder="Qeyd:"></textarea>
+</form>
+
+
+
+</body>
+</html>
